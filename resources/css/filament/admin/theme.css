@@ -1,0 +1,19 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+/*.fi-sidebar {
+    @apply bg-slate-900 border-r border-slate-800;
+}*/
+
+/* Custom style for TextEntry label in User Details section only */
+.user-details-section .fi-in-entry .fi-in-entry-label {
+    font-size: var(--text-base) !important;
+    /*border: solid oklch(0.828 0.189 84.429);
+    border-radius: 50% 20% / 10% 40%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: oklch(0.828 0.189 84.429);
+    color: oklch(0.414 0.112 45.904);*/
+}

@@ -80,7 +80,7 @@ Ensure you have the following installed on your local machine:
     ```
 
 2.  **Access the application**
-    Open your browser and navigate to `http://localhost:8000/admin`.
+    Open your browser and navigate to `http://localhost:8000`.
 
 3.  **Login with default credentials**
     The database seeder creates the following users (password: `password`):

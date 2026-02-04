@@ -27,16 +27,15 @@ A robust, Filament-powered Helpdesk Ticketing System built with Laravel. This ap
 
 Ensure you have the following installed on your local machine:
 
--   [PHP 8.2](https://www.php.net/downloads) or higher
+-   [XAMPP](https://www.apachefriends.org/) (includes PHP 8.2+ and MySQL)
 -   [Composer](https://getcomposer.org/)
 -   [Node.js](https://nodejs.org/) & NPM
--   MySQL Server
 
 ## Installation
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/DonzHycxl/helpdesk-system.git
+    git clone https://github.com/DniHaikaru/helpdesk-system.git
     cd helpdesk-system
     ```
 
@@ -77,6 +76,7 @@ Ensure you have the following installed on your local machine:
     ```bash
     php artisan serve
     npm run dev
+    php artisan queue:work
     ```
 
 2.  **Access the application**
